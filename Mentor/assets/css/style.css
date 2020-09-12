@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  background: #000;
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -129,12 +129,12 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 600;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-family: "Helvetica Neue", sans-serif;
 }
 
 #header .logo a {
-  color: #5fcf80;
+  color: #fff;
 }
 
 #header .logo img {
@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #37423b;
+  color: #fff;
   transition: 0.3s;
   font-size: 15px;
   font-family: "Helvetica Neue", sans-serif;
