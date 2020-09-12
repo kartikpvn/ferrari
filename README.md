@@ -1,7 +1,5 @@
 # ferrari
-ferrari
-
-
+BMW
 
 GIT HUB COMMANDS
 1. set up a github account using git checkout.
@@ -22,3 +20,7 @@ TBD:
  #FUN FACT ABOUT CHEMISTRY - WITH A PLAYCARD APPROACH
  #LEARNING ALGORITHM - SUGGEST VIDEOS AND MATERIAL
  #WHITEBOARD
+With this branch we are introducing we are introducing periodic table familarity
+
+
+
