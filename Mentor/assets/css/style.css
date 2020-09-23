@@ -480,7 +480,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
@@ -800,6 +800,7 @@ section {
   margin-bottom: 20px;
   background: #fff;
   border: 1px solid #eef0ef;
+  display: flex;
 }
 
 .trainers .member img {
@@ -1560,4 +1561,16 @@ section {
   background: #3ac162;
   color: #fff;
   text-decoration: none;
+}
+
+.main-body {
+  background:#f9faf9;
+}
+/*--------------
+ * Videos
+ *-------------*/
+
+ .video-search {
+  padding-left:30px;
+  padding-right:30px;
 }
