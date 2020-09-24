@@ -65,19 +65,6 @@
      <div class="row video-row align-items-center">
     <video class="main-video" type="video/mp4" alt="" src="1.mp4" rameborder="0" allow="autoplay; encrypted-media controls" allowfullscreen>
     </video>
-     <!--CONTROLS-->
-    <div id="mycontrols">
-      <button id="playpause" class="icon-play"></button>
-      <div class="seeker">
-        <progress id='progressbar' class="progressbar" max='100' value='0'></progress>
-        <input type="range" id="seekbar" value="0" class="seekbar" />
-      </div>
-      <button id="mute" class="icon-volume-2"></button>
-      <input type="range" id="volumebar" class="volumebar" value="1" min="0" max="1" step="0.1" />
-      <button id="fullscreen" class="icon-fullscreen-alt"></button>
-    </div>
-    </div>
-    </div>
     </div>
   </section><!-- End Hero -->
 
@@ -90,10 +77,11 @@
    </div>
  <div class="col-lg-12" data-aos="fade-left" data-aos-delay="100">
   <div>
-  <a class="get-started-btn btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+  <a id="show-more" class="get-started-btn" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
     Show more >>
   </a>
 <div class="collapse" id="collapseExample">
+  <br>
   <div class="card card-body">
   <p class="font-italic">
             Our aim is to introduce stunning a new way to learn chemistry.
@@ -114,7 +102,11 @@
 </div>
  </div>
  </div>
+ </div>
+</section>
 
+<section id="about" class="about">
+  <div class="container" data-aos="fade-up">
  <div class="row">
  <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
  <br>
@@ -162,12 +154,11 @@
 
           </div>
       </div>
-    </section><!-- End Videos Section -->
+</div>
+</section>
 
-</section><!-- End of carousel section-->
-
-<div class="container" data-aos="fade-up">
 <section id="about" class="about">
+  <div class="container" data-aos="fade-up">
   <div class="row">
 	<div class="col-lg-12" data-aos="fade-left" data-aos-delay="100">
    <h2> Comments </h2>
@@ -219,12 +210,53 @@
               <button type="cancel" class="btn btn-default reply-popup">Cancel</button>
             </span>
           </div>
+        </div>   
+       </div>
+    </div>
+    </div>
+       
+      <div class="row" data-aos="fade-left" data-aos-delay="100">
+        <br> 
+          <div>      
+          <a id="show-more" class="get-started-btn" data-toggle="collapse" href="#more-comments" role="button" aria-expanded="false" aria- controls="collapseExample">
+            Show more >>
+          </a>   
         </div>
+        <div class="collapse comment-box" id="more-comments">  
+        <br>    
+        <div class="col comment-box">
+            <div class="comments comment-box">  
+ 
+              <div class="comment-box">
+                  <span class="commenter-pic">
+                    <img src="/images/user-icon.jpg" class="img-fluid">
+                  </span>
+                  <span class="commenter-name">
+                    <a href="#">Happy uiuxStream</a> <span class="comment-time">2 hours ago</span>
+                  </span>
+                  <p class="comment-txt more">Suspendisse massa enim, condimentum sit amet maximus quis, pulvinar sit amet ante. Fusce       eleifend dui mi, blandit vehicula orci iaculis ac.</p>
+                  <div class="comment-meta">
+                    <button class="comment-like"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 99</button>
+                    <button class="comment-dislike"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i> 149</button>
+                    <button class="comment-reply reply-popup"><i class="fa fa-reply-all" aria-hidden="true"></i> Reply</button>
+                  </div>
+                  <div class="comment-box add-comment reply-box">
+                    <span class="commenter-pic">
+                      <img src="/images/user-icon.jpg" class="img-fluid">
+                    </span>
+                    <span class="commenter-name">
+                      <input type="text" placeholder="Add a public reply" name="Add Comment">
+                      <button type="submit" class="btn btn-default">Reply</button>
+                      <button type="cancel" class="btn btn-default reply-popup">Cancel</button>
+                    </span>
+                  </div>
+            </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
+           
+        </div>
     </section><!-- End Videos Section -->
   </main><!-- End #main -->
 
