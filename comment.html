@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Trainers - Mentor Bootstrap Template</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -28,7 +27,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/comments.css" rel="stylesheet">
-  <link href=" assets/js/video_player.css" rel="stylesheet">
+  <link href="assets/css/video-player.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Mentor - v2.1.0
@@ -63,9 +62,21 @@
   </header><!-- End Header -->
   <section>
      <div class="row video-row align-items-center">
-    <video class="main-video" type="video/mp4" alt="" src="1.mp4" rameborder="0" allow="autoplay; encrypted-media controls" allowfullscreen>
+    <video id="myvideo" class="main-video" type="video/mp4" alt="" src="1.mp4" rameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
     </video>
-    </div>
+    <button id="playbtn">
+    <svg class="video-wrap" width= "5em" height="5em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+    </svg>
+    </button>
+    <button id="pausebtn">
+    <svg class="video-wrap" width="5em" height="5em" viewBox="0 0 16 16" class="bi bi-pause" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5z"/>
+</svg>
+    </button>
+
+   </div>
+
   </section><!-- End Hero -->
 
   <main id="main" class="main-body"  data-aos="fade-in">
@@ -74,13 +85,14 @@
  <div class="row">
  <div class="col-lg-12" data-aos="fade-left" data-aos-delay="100">
             <h2> Chemistry 101 basics </h2>
-   </div>
+ </div>
+ </div>
+ <div class="row">
  <div class="col-lg-12" data-aos="fade-left" data-aos-delay="100">
-  <div>
-  <a id="show-more" class="get-started-btn" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+  <a id="show-more-1"  data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
     Show more >>
   </a>
-<div class="collapse" id="collapseExample">
+  <div class="collapse" id="collapseExample">
   <br>
   <div class="card card-body">
   <p class="font-italic">
@@ -98,9 +110,7 @@
   </p>
   </div>
 </div>
-
 </div>
- </div>
  </div>
  </div>
 </section>
@@ -210,23 +220,32 @@
               <button type="cancel" class="btn btn-default reply-popup">Cancel</button>
             </span>
           </div>
-        </div>   
+        </div>
        </div>
     </div>
     </div>
-       
+
       <div class="row" data-aos="fade-left" data-aos-delay="100">
-        <br> 
-          <div>      
-          <a id="show-more" class="get-started-btn" data-toggle="collapse" href="#more-comments" role="button" aria-expanded="false" aria- controls="collapseExample">
-            Show more >>
-          </a>   
+        <br>
+          <div class="col-lg-12" data-aos="fade-left" data-aos-delay="100">
+          <a id="show-more-2" data-toggle="collapse" href="#more-comments" role="button" aria-expanded="false" aria- controls="collapseExample">
+          <svg class="arrow" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+  <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+</svg>
+          </a>
+          <a  id="show-less-2" data-toggle="collapse" href="#more-comments" role="button" aria-expanded="false" aria-                 controls="collapseExample">
+          <svg class="arrow" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"/>
+  <path fill-rule="evenodd" d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+</svg>
+          </a>
         </div>
-        <div class="collapse comment-box" id="more-comments">  
-        <br>    
+        <div class="collapse comment-box" id="more-comments">
+        <br>
         <div class="col comment-box">
-            <div class="comments comment-box">  
- 
+            <div class="comments comment-box">
+
               <div class="comment-box">
                   <span class="commenter-pic">
                     <img src="/images/user-icon.jpg" class="img-fluid">
@@ -255,7 +274,7 @@
           </div>
         </div>
       </div>
-           
+
         </div>
     </section><!-- End Videos Section -->
   </main><!-- End #main -->
@@ -333,9 +352,8 @@
   <script src="assets/vendor/counterup/counterup.min.js"></script>
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
-  <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script src="assets/js/video_player.js"></script>
 </body>
 
 </html>

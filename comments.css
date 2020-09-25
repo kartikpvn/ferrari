@@ -19,7 +19,7 @@
     width: 100%;
     float: left;
     height: 100%;
-    background-color: #FAFAFA;
+    background-color: #f9f9f9;
     padding: 10px 10px 10px;
     margin-bottom: 15px;
     border-radius: 5px;
@@ -38,7 +38,7 @@
     border-radius: 100%;
     border: 2px solid #fff;
     overflow: hidden;
-    background-color: #fff;
+    background-color: #f9f9f9;
 }
 .comments .add-comment .commenter-name {
     width: 100%;
@@ -58,6 +58,7 @@
     width: 100%;
     padding: 0;
     font-weight: normal;
+    background-color: #f9f9f9;
 }
 .comments .add-comment input:focus {
     border-color: #03a9f4;
@@ -114,6 +115,13 @@
    text-align: center;
 }
 
+.center-play-button-glove {
+   text-align: center;
+}
+
+.center-play-button {
+   position:absolute;
+}
 
 .video-element {
   background-color: #000000;
@@ -141,7 +149,7 @@
 }
 
 .comment-box {
-   background-color: #fff;
+   background-color: #f9f9f9;
    width: 100%;
    display: inline-block
 }
