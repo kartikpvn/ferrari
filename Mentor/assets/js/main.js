@@ -16,6 +16,17 @@
     }
   });
 
+
+  var video = document.getElementById("myvideo");
+
+  $('#myvideo').hover(function toggleControls() {
+    if (video.hasAttribute("controls")) {
+        video.removeAttribute("controls")
+    } else {
+        video.setAttribute("controls", "controls")
+    }
+  })
+
   // Smooth scroll for the navigation menu and links with .scrollto classes
   var scrolltoOffset = $('#header').outerHeight() - 1;
   $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
@@ -136,8 +147,9 @@
       }
     }
   });
+ 
 
-  // Init AOS
+ // Init AOS
   $(window).on('load', function() {
     AOS.init({
       duration: 1000,
@@ -146,3 +158,4 @@
   });
 
 })(jQuery);
+
