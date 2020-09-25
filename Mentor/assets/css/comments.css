@@ -19,7 +19,7 @@
     width: 100%;
     float: left;
     height: 100%;
-    background-color: #FAFAFA;
+    background-color: #f9f9f9;
     padding: 10px 10px 10px;
     margin-bottom: 15px;
     border-radius: 5px;
@@ -38,7 +38,7 @@
     border-radius: 100%;
     border: 2px solid #fff;
     overflow: hidden;
-    background-color: #fff;
+    background-color: #f9f9f9;
 }
 .comments .add-comment .commenter-name {
     width: 100%;
@@ -58,6 +58,7 @@
     width: 100%;
     padding: 0;
     font-weight: normal;
+    background-color: #f9f9f9;
 }
 .comments .add-comment input:focus {
     border-color: #03a9f4;
@@ -114,6 +115,13 @@
    text-align: center;
 }
 
+.center-play-button-glove {
+   text-align: center;
+}
+
+.center-play-button {
+   position:absolute;
+}
 
 .video-element {
   background-color: #000000;
@@ -140,140 +148,29 @@
   position: relative;
 }
 
-#mycontrols {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  color: white;
-  font-size: .8em;
-  width: 100%;
-  min-height: 40px;
-  padding: 10px 5px;
-  background-color: black;
-  background-color: rgba(0, 0, 0, 0.75);
-  z-index: 2147483647;
+.suggestion-details {
+  float: left;
+  width: 50%;
+  padding: 10px;
 }
 
-input[type=range] {
-  border-radius: 2px;
-  vertical-align: middle;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  background-color: rgba(255, 255, 255, 0.7);
-  height: 1px;
-  border: none;
-  cursor: pointer;
+.suggestion-box {
+  padding:3%;
+  border-left:none;
+  border-right:none;
+  border-top:solid;
+  border: 1px solid #ddd;
 }
 
-input[type=range]::-moz-range-track {
-  vertical-align: middle;
-  border-radius: 2px;
-  background-color: rgba(255, 255, 255, 0.7);
-  -moz-appearance: none;
-  background-color: white;
-  height: 1px;
-  cursor: pointer;
-}
-
-input[type=range]::-moz-range-thumb {
-  border-radius: 50%;
-  height: 8px;
-  width: 8px;
-  background-color: white;
-  border: 0;
-}
-
-input[type=range].light::-moz-range-thumb {
-  box-shadow: 0 0 8px 2px white;
-}
-
-input[type=range]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  border-radius: 50%;
-  height: 8px;
-  width: 8px;
-  background-color: white;
-  border: 0;
-}
-
-input[type=range].light::-webkit-slider-thumb {
-  box-shadow: 0 0 8px 2px white;
-}
-
-input[type=range]:active::-moz-range-track {
-  background: orange;
-}
-
-.seeker {
-  position: relative;
-  width: 65%;
-  margin: 0 1%;
-  z-index: 0;
-  display: inline-block;
-  margin-right: 5px;
-  margin: 0 10px;
-}
-
-.seekbar {
-  z-index: 3;
-  position: relative;
-  width: 100%;
-  background-color: transparent !important;
-}
-
-.progressbar, .bufferbar {
-  position: absolute;
-  left: 0;
-  top: 8px;
-  width: 100%;
-  pointer-events: none;
-  height: 1px;
-  z-index: 2;
-  /* Turns off styling - not usually needed, but good to know. */
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  /* gets rid of default border in Firefox and Opera. */
-  border: none;
-  background: rgba(255, 255, 255, 0.1);
-  color: #c0392b;
-}
-.progressbar::-moz-progress-bar, .bufferbar::-moz-progress-bar {
-  background: #c0392b;
-}
-.progressbar::-webkit-progress-bar, .bufferbar::-webkit-progress-bar {
-  background: rgba(255, 255, 255, 0.1);
-}
-.progressbar::-webkit-progress-value, .bufferbar::-webkit-progress-value {
-  background: #c0392b;
-}
-
-.bufferbar {
-  z-index: 1;
-  color: #aaa;
-}
-.bufferbar::-moz-progress-bar {
-  background: #aaa;
-}
-.bufferbar::-webkit-progress-value {
-  background: #aaa;
-}
-
-.volumebar {
-  width: 8%;
-  margin: 0 1%;
-}
-
-/*hide controls from shadow DOM in webkit browsers*/
-/* hides controls only in fullscreen, but shows them in normal screen even if controls is set to false*/
-/*the most specific pseudo-element to target video controls on full screen*/
-video::-webkit-media-controls-enclosure {
-  display: none !important;
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .comment-box {
-   background-color: #fff;
+   background-color: #f9f9f9;
    width: 100%;
    display: inline-block
 }

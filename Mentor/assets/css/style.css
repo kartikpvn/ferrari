@@ -9,8 +9,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
+  font-family: "Helvetica Neue";
+  background-color: #00000000;
 }
 
 a {
@@ -23,7 +23,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica Neue";
 }
 
 /*--------------------------------------------------------------
@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: lowercase;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue";
 }
 
 #header .logo a {
@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   transition: 0.3s;
   font-size: 15px;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue";
   font-weight: 500;
 }
 
@@ -221,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu .drop-down > a:after {
   content: "\ea99";
-  font-family: IcoFont;
+  font-family: "Helvetica Neue";
   padding-left: 5px;
 }
 
@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu .drop-down .drop-down > a:after {
   content: "\eaa0";
-  font-family: IcoFont;
+  font-family: "Helvetica Neue";
   position: absolute;
   right: 15px;
 }
@@ -342,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav .drop-down > a:after {
   content: "\ea99";
-  font-family: IcoFont;
+  font-family: "Helvetica Neue";
   padding-left: 10px;
   position: absolute;
   right: 15px;
@@ -438,7 +438,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica Neue";
   font-weight: 500;
   font-size: 15px;
   letter-spacing: 1px;
@@ -480,12 +480,12 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 40px 0;
+  padding: 20px 0;
   overflow: hidden;
 }
 
 .section-bg {
-  background-color: #f6f7f6;
+  background-color: #FAFAFA;
 }
 
 .section-title {
@@ -610,7 +610,7 @@ section {
 .counts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 15px;
   font-weight: 600;
   color: #37423b;
@@ -984,7 +984,7 @@ section {
   font-weight: 400;
   font-size: 16px;
   margin: 0;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue";
 }
 
 .course-details .course-info p {
@@ -1214,7 +1214,7 @@ section {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1429,7 +1429,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   color: #777777;
 }
 
