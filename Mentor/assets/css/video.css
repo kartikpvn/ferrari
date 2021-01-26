@@ -1,0 +1,37 @@
+.small-screen {
+    display:none;
+}
+
+.further-info {
+    height:100%;
+}
+
+.thumb-nail-cnt:hover {
+  height:320px;
+}
+.thumb-nail-cnt {
+
+ padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  margin: 5px 1% 5px 1%;
+  float: left;
+  height:190px;
+  position: relative;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+    .small-screen {
+    display:block;
+   }
+
+   .large-screen {
+    display:none;
+   }
+}

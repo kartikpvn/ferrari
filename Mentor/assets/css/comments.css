@@ -61,20 +61,22 @@
     background-color: #f9f9f9;
 }
 .comments .add-comment input:focus {
-    border-color: #03a9f4;
+    border-color: #5fcf80;
     border-width: 2px;
 }
 .comments .add-comment button[type=submit] {
-    background-color: #03a9f4;
+    background-color: #5fcf80;
     color: #fff;
 }
+
 .comments .add-comment button {
     background-color: #f5f5f5;
     margin: 10px 5px;
     font-size: 14px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     float: right;
 }
+
 .comments .commenter-name .comment-time {
     font-weight: normal;
     margin-left: 8px;
@@ -146,6 +148,7 @@
 
 .video-row {
   position: relative;
+  margin-top: 65px;
 }
 
 .suggestion-details {
