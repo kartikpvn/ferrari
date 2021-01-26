@@ -3,7 +3,7 @@ BMW
 
 GIT HUB COMMANDS
 1. set up a github account using git checkout.
-2. git add *, git commit, git push , currently we are adding changes in the master directly.
+2. git add *, git commit, git push , git add -u currently we are adding changes in the master directly.
 
 
 
