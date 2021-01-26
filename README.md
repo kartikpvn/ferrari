@@ -20,7 +20,7 @@ TBD:
  #FUN FACT ABOUT CHEMISTRY - WITH A PLAYCARD APPROACH
  #LEARNING ALGORITHM - SUGGEST VIDEOS AND MATERIAL
  #WHITEBOARD
-With this branch we are introducing we are introducing periodic table familarity
+With this branch  we are introducing periodic table familarity
 
 
 
